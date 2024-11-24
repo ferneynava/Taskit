@@ -1,0 +1,17 @@
+:root {
+    --tw-bg-opacity: 1;
+    --tw-border-opacity: 1;
+}
+
+.containerTodos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    border-radius: 1rem;
+    border-width: 1px;
+    border-color: rgb(17 28 45 / var(--tw-border-opacity));
+    border-style: solid;
+    padding: 3rem;
+}
