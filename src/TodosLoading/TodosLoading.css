@@ -1,0 +1,4 @@
+.ContainerLoading{
+    display: grid;
+    place-content: center;
+}
