@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ferneynava/Taskit/static/css/main.95ddf11f.css",
-    "main.js": "/ferneynava/Taskit/static/js/main.d67f26ca.js",
-    "static/media/bg.svg": "/ferneynava/Taskit/static/media/bg.f8cfd06ebb65d945cd27.svg",
-    "index.html": "/ferneynava/Taskit/index.html",
-    "static/media/delete.svg": "/ferneynava/Taskit/static/media/delete.d0014f9f3ded7c24e2603ca86ba0dfa0.svg",
-    "static/media/check.svg": "/ferneynava/Taskit/static/media/check.3629f261c7d18110bc8fcaf43361c530.svg",
-    "main.95ddf11f.css.map": "/ferneynava/Taskit/static/css/main.95ddf11f.css.map",
-    "main.d67f26ca.js.map": "/ferneynava/Taskit/static/js/main.d67f26ca.js.map"
+    "main.css": "./static/css/main.27361cfe.css",
+    "main.js": "./static/js/main.d15facfe.js",
+    "static/media/bg.svg": "./static/media/bg.f8cfd06ebb65d945cd27.svg",
+    "index.html": "./index.html",
+    "static/media/delete.svg": "./static/media/delete.d0014f9f3ded7c24e2603ca86ba0dfa0.svg",
+    "static/media/check.svg": "./static/media/check.3629f261c7d18110bc8fcaf43361c530.svg",
+    "main.27361cfe.css.map": "./static/css/main.27361cfe.css.map",
+    "main.d15facfe.js.map": "./static/js/main.d15facfe.js.map"
   },
   "entrypoints": [
-    "static/css/main.95ddf11f.css",
-    "static/js/main.d67f26ca.js"
+    "static/css/main.27361cfe.css",
+    "static/js/main.d15facfe.js"
   ]
 }
