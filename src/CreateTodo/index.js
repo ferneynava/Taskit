@@ -8,7 +8,6 @@ function CreateTodo() {
     return (
         <div className='containerCreateTodo'>
             <h1>Escribe tu nuevo TODO</h1>
-            <input className='containerCreateTodoInput' type="text" placeholder="Cortar cebolla" />
             <button className='containerCreateTodoButton' 
             onClick={
                 (event) => {
