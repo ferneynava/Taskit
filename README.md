@@ -12,9 +12,7 @@
   <a href="https://github.com/ferneynava/Taskit.git">
     <img src="./public/112-book-morph-linealtrans.gif" alt="Logo" width="90" height="90">
   </a>
-
 <h3 align="center">Taskit</h3>
-
   <p align="center">
     Aplicación de gestión y organización de tareas construida con React.
     <br />
@@ -29,7 +27,6 @@
   </p>
 </div>
 
-<!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table de contenido</summary>
   <ol>
@@ -51,11 +48,9 @@
   </ol>
 </details>
 
-<!-- ABOUT THE PROJECT -->
 ## Acerca del proyecto
 
 [![Product Name Screen Shot][product-screenshot]](https://ferneynava.github.io/Taskit/)
-
 Es una aplicación de gestión y organización de tareas construida con Create React App. Proporciona las siguientes características clave:
  <ul>
     <li>Filtrado de tareas: Filtra y visualiza fácilmente las tareas según su texto.</li>
@@ -74,7 +69,6 @@ Es una aplicación de gestión y organización de tareas construida con Create R
 * ![CSS]
 
 <p align="right">(<a href="#volver-arriba">volver arriba</a>)</p>
-
 
 ## Empezando
 
@@ -129,10 +123,6 @@ Link del proyecto: [https://github.com/ferneynava/Taskit.git](https://github.com
 
 <p align="right">(<a href="#volver-arriba">volver arriba</a>)</p>
 
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
 [contributors-shield]: https://img.shields.io/github/contributors/ferneynava/Taskit.svg?style=for-the-badge
 [contributors-url]: https://github.com/ferneynava/Taskit/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/ferneynava/Taskit.svg?style=for-the-badge
