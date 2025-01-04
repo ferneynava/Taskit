@@ -9,229 +9,145 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="./images/112-book-morph-linealtrans.gif" alt="Logo" width="90" height="90">
+  <a href="https://github.com/ferneynava/Taskit.git">
+    <img src="./public/112-book-morph-linealtrans.gif" alt="Logo" width="90" height="90">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Taskit</h3>
 
   <p align="center">
-    project_description
+    Aplicación de gestión y organización de tareas construida con React.
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/ferneynava/Taskit.git"><strong>Explore los documentos »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://ferneynava.github.io/Taskit/">Ver demostración</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/ferneynava/Taskit/issues">Reportar error</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/ferneynava/Taskit/issues">Solicitar función</a>
   </p>
 </div>
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Table de contenido</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#acerca-del-proyecto">Acerca del proyecto</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#tecnologías">Tecnologías</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#empezando">Empezando</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#instalación">Instalación</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#contribuyendo">Contribuyendo</a></li>
+    <li><a href="#licencia">Licencia</a></li>
+    <li><a href="#contacto">Contacto</a></li>
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Acerca del proyecto
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://ferneynava.github.io/Taskit/)
 
-Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`, `project_license`
+Es una aplicación de gestión y organización de tareas construida con Create React App. Proporciona las siguientes características clave:
+ <ul>
+    <li>Filtrado de tareas: Filtra y visualiza fácilmente las tareas según su texto.</li>
+    <li>Añadir tareas: Agrega nuevas tareas a tu lista.</li>
+    <li>Completar tareas: Marca las tareas como completadas para hacer un seguimiento de tu progreso.</li>
+    <li>Eliminar tareas: Elimina las tareas que ya no necesitas.</li>
+    <li>Almacenamiento local: Guarda tus tareas localmente, asegurando que se guarden incluso si cierras la aplicación.</li>
+    <li>Interfaz fácil de usar: La aplicación cuenta con una interfaz simple e intuitiva para facilitar la navegación y la gestión de tareas.</li>
+</ul>
+<p align="right">(<a href="#volver-arriba">volver arriba</a>)</p>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Tecnologías
 
-
-
-### Built With
-
-* [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* ![HTML]
+* ![CSS]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#volver-arriba">volver arriba</a>)</p>
 
 
+## Empezando
 
-<!-- GETTING STARTED -->
-## Getting Started
+### Instalación
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clona el repositorio:
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/Lenoxo/Taskit.git
    ```
-3. Install NPM packages
+2. Instalar dependencias:
    ```sh
-   npm install
+      npm install
+      # or
+      yarn install
+      # or
+      ultra install
+      # or
+      pnpm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
+3. Corre el proyecto
    ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
+    npm run start
    ```
+<p align="right">(<a href="#volver-arriba">volver arriba</a>)</p>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Contribuyendo
 
+> [!IMPORTANT]
+> Las contribuciones son lo que hace que la comunidad de código abierto sea un lugar increíble para aprender, inspirar y crear. **Cualquier contribución que hagas es muy apreciada**.
 
+Si tiene una sugerencia que mejoraría esto, bifurque el repositorio y crea una solicitud de extracción. También puede simplemente abrir un problema con la etiqueta "mejora". ¡No olvides darle una estrella al proyecto! ¡Gracias de nuevo!
 
-<!-- USAGE EXAMPLES -->
-## Usage
+1. Bifurcar el proyecto
+2. Crea tu rama de funciones (`git checkout -b <Nombre de la rama>`)
+3. Confirme sus cambios (`git commit -m "mensaje del commit'`)
+4. Empuje a la Sucursal (`git push origin branch`)
+5. Abrir una solicitud de extracción
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+<p align="right">(<a href="#volver-arriba">volver arriba</a>)</p>
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+## Licencia
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Distribuido bajo la licencia MIT. Consulte `LICENSE.md` para obtener más información.
 
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#volver-arriba">volver arriba</a>)</p>
 
 
+## Contacto
+Ferney Alexander Nava Trujillo - ferneynava@gmail.com
 
-<!-- CONTRIBUTING -->
-## Contributing
+Link del proyecto: [https://github.com/ferneynava/Taskit.git](https://github.com/ferneynava/Taskit.git)
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+<p align="right">(<a href="#volver-arriba">volver arriba</a>)</p>
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### Top contributors:
-
-<a href="https://github.com/github_username/repo_name/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=github_username/repo_name" alt="contrib.rocks image" />
-</a>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the project_license. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/ferneynava/Taskit.svg?style=for-the-badge
+[contributors-url]: https://github.com/ferneynava/Taskit/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/ferneynava/Taskit.svg?style=for-the-badge
+[forks-url]: https://github.com/ferneynava/Taskit/network/members
+[stars-shield]: https://img.shields.io/github/stars/ferneynava/Taskit.svg?style=for-the-badge
+[stars-url]: https://github.com/ferneynava/Taskit/stargazers
+[issues-shield]: https://img.shields.io/github/issues/ferneynava/Taskit.svg?style=for-the-badge
+[issues-url]: https://github.com/ferneynava/Taskit/issues
+[license-shield]: https://img.shields.io/github/license/ferneynava/Taskit.svg?style=for-the-badge
+[license-url]: https://github.com/ferneynava/Taskit/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
+[linkedin-url]: https://www.linkedin.com/in/ferney-alexander-nava-trujillo-0478a8118/
+[product-screenshot]: /public/Captura%20de%20pantalla%202025-01-03%20182712.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+[HTML]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[CSS]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+[js]: https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
